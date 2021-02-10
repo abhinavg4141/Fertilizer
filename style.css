@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #e2e2e2;
+}
+
+.login-options{
+    width: 200px;
+    height: 170px;
+    background: white;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 5px;
+    position: absolute;
+    left: 1043px;
+    top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .login-options p{
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+.main-nav{
+    height: 70px;
+    width: 100vw;
+    background: #2fbd22 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.logo{
+    background: #2fbd22 ;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 200%;
+    height: 100%;
+    padding-top: 14px;
+}
+
+.search{
+    width: 45%;
+    height: 65%;
+    border: 1px solid #e2e2e2;
+    margin: auto 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+.text{
+    width: 85%;
+    height: 100%;
+    background: white;
+    color: #79675F;
+    padding-top: 11px;
+    padding-left: 10px;
+}
+
+.search-btn{
+    width: 15%;
+    background: #2fbd22;
+    height: 100%;
+    cursor: pointer;
+    
+}
+/* .search-btn:hover{
+    background: #0d335d;
+} */
+
+.fa-search{
+    background: #2fbd22;
+    color: white;
+    font-size: 140%;
+    font-weight:100;
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart{
+    background: #2fbd22;
+    color: white;
+    width: 10%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.nav-btn{
+    padding-top: 20px;
+    background: #2fbd22;
+    width: 10%;
+    text-align: center;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.nav-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icon{
+    font-size: 160%;
+    background: #2fbd22;
+}
+
+#nav-text{
+    margin-left: 5px;
+    /* padding-bottom: 15px; */
+    height: 100%;
+    background: #2fbd22;
+}
+
+.log{
+    margin-right: 40px;
+}
+
+a{
+    color: black;
+}
+
+.login{
+    background: white;
+    height: 70%;
+    width: 80%;
+    color: #2fbd22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sec-nav{
+    height: 40px;
+    /* border:1px solid black; */
+    display: flex;
+    background: white;
+}
+
+.fields{
+    width: 12.5%;
+    /* border-right:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background: white;
+}
+
+.fields i{
+    margin-left: 3px;
+    background: white;
+}
+
+.container{
+    height: calc(100vh - 120px);
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.product-row{
+    height: 400px;
+    width: 95%;
+    margin: 10px auto;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.prod-head{
+    height: 10%;
+    /* width: 100%; */
+    background-color: #2fbd22;
+    color: white;
+    /* padding-top: 10px; */
+    padding-left: 30px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prod-head .first{
+    background:#2fbd22;
+}
+
+.prod-head .second{
+    background-color: white;
+    color: #2fbd22;
+    width: 100px;
+    height: 70%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.products{
+    height: 90%;
+    display: flex;
+}
+
+.product{
+    width: 14.5%;
+    height: 100%;
+    background: white;
+    border-right: 1px solid #E2E2E2;
+}
+
+.prod-img{
+    height: 60%;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.prod-img img{
+    background-color: white;
+    /* padding-top: 40px; */
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    transition: margin-top 0.2s;
+}
+
+
+.prod-img img:hover{
+    margin-top: 0px;
+}
+.prod-name{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prod-price{
+    background-color: white;
+    font-size: 150%;
+    font-weight: 600;
+    color: #2B9F24;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon{
+    background: white;
+    color: #2fbd22;
+    font-size: 300%;
+    margin-right: 5px;
+
+}
+
+.icon i{
+    background: white;
+}
+
+.head-text{
+    background: white;
+    font-weight: 600;
+    /* margin-left: 20px; */
+}
+
+.help-text{
+    background: white;
+    margin: 10px 25px;
+}

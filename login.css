@@ -1,0 +1,130 @@
+.container-l{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .left{
+   height: 100%;
+   width: 40%;
+   background: #2fbd22;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: space-around; */
+   border-radius: 20px;
+   z-index: 2;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .left h1{
+    color: white;
+    margin-top: 120px;
+  }
+  
+  .left h2{
+    color: greenyellow;
+  }
+  
+  .left .img{
+    width: 250px;
+    margin-top: 100px;
+  }
+  .left .img img{
+  width: 100%;
+  height: 100%;
+  }
+  
+  .right{
+    height: 100%;
+    width: 60%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .right .upper{
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+  .upper p{
+  color: gray;
+  font-weight: bold;
+  }
+  .upper input{
+    border: none;
+    width: 350px;
+    border-bottom: 4px solid gray;
+  }
+  .upper .continue{
+   margin-top: 20px;
+   width: 355px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: red;
+   height: 40px;
+   color: white;
+  }
+  .upper .login-btn{
+      margin-top: 20px;
+      width: 355px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      color: #2fbd22;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .lower{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .lower .social-img{
+   display: flex;
+  }
+  .google{
+    height: 30px;
+    width: 30px;
+  }
+  .google img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+  }
+  .facebook{
+      height: 29px;
+      width: 29px;
+      margin-left: 20px;
+  }
+  .facebook img{
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .lower p{
+  
+  }
+  .register{
+   color: #2fbd22;
+  }
+  .cross{
+    position: absolute;
+    left: 790px;
+    height: 20px;
+    width: 20px;
+  }
+  .cross i{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+  }
+  
